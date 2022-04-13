@@ -1,1 +1,12 @@
 /* My Styles */
+
+@import url(sharpie.css);
+
+body {
+    font-family: 'Sharpie-Regular';
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
