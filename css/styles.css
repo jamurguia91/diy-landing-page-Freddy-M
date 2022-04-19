@@ -1,9 +1,10 @@
 /* My Styles */
 
 @import url(sharpie.css);
+@import url(satoshi.css);
 
 body {
-    font-family: 'Sharpie-Regular';
+    
 
     display: grid;
     justify-content: center;
@@ -12,9 +13,39 @@ body {
     width: 90vh; */
     max-width: 500px;
     margin: auto;
+    background-color: #242933;
+}
+
+h1 {
+    font-family: 'Satoshi-Medium';
+    color: #ec4c56;
+}
+
+p {
+    font-family: 'Satoshi-Light';
+    color: #f6f0e9;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #ec4c56;
+    font-family: 'Satoshi-Regular';
+    text-decoration: none;
+}
+a:visited {
+    color: #ec4c56;
+}
+a:hover {
+    color: #f6f0e9;
 }
 
 img {
     max-width: 90%;
     max-height: 90%;
+    border-radius: 2%;
+    filter: grayscale(100%);
+    
 }
