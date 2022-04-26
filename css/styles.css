@@ -2,9 +2,10 @@
 @import url(satoshi.css);
 
 body {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     /* height: 100vh;
     width: 90vh; */
     width: 425px;
@@ -15,19 +16,23 @@ body {
 h1 {
     font-family: 'Satoshi-Medium';
     color: #ec4c56;
+    font-size: 2.75em;
     -webkit-animation: bounce-in-right 1.1s both;
 	        animation: bounce-in-right 1.1s both;
 }
 
 p {
+    padding: 2em;
     font-family: 'Satoshi-Light';
     color: #f6f0e9;
+    font-size: 1.1em;
   -webkit-animation: flicker-in-1 2s 0.5s 1.5 both;
 	        animation: flicker-in-1 2s 0.5s 1.5 both;
 }
 
 ul {
     list-style: none;
+    text-align: center;
 
   -webkit-animation: bounce-in-right 1.1s both;
 	        animation: bounce-in-right 1.1s both;
@@ -36,6 +41,7 @@ ul {
 a {
     color: #ec4c56;
     font-family: 'Satoshi-Regular';
+    font-size: 1.75em;
     text-decoration: none;
 }
 a:visited {
