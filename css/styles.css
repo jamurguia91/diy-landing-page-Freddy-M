@@ -38,6 +38,23 @@ ul {
 	        animation: bounce-in-right 1.1s both;
 }
 
+button {
+    display: block;
+    margin-bottom: 4px;
+    width: 105%;
+    background-color: #242933;
+    border: 2px solid #ec4c56;
+    border-radius: 5%;
+}
+button:hover{
+    display: block;
+    margin-bottom: 4px;
+    width: 105%;
+    background-color: #ec4c56;
+    border: 2px solid #f6f0e9;
+    border-radius: 5%;
+}
+
 a {
     color: #ec4c56;
     font-family: 'Satoshi-Regular';
